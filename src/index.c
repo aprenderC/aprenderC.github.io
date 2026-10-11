@@ -4,7 +4,7 @@
 
 int main(void) {
 
-    c2html_init("index",
+    c2html_init("index.html",
                 .css_path = "css/style.css",
                 .js_path = "script/script.js",
                 .title = "aprenderC");
