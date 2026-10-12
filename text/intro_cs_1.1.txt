@@ -1,0 +1,7 @@
+Os computadores entendem apenas uma "língua" muito básica chamada código binário ou linguagem de maquina (Machine Language ou ML)(composta por zeros e uns).
+
+Como seria muito difícil e demorado escrever tudo dessa forma, usamos as linguagens de programação.
+
+A Linguagem C é como uma "ponte" entre a forma como nós humanos pensamos e a forma como o computador funciona.
+
+Criada na década de 1970, ela é uma das linguagens de programação mais fundamentais e influentes da história da computação.

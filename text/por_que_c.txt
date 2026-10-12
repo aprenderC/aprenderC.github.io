@@ -1,0 +1,5 @@
+Aprender C é equivalente a aprender a pilotar um carro de corrida com câmbio manual: você precisa entender exatamente como o motor e as peças funcionam para ter o controle total.
+ 
+Ao contrário de linguagens mais modernas que "escondem" os detalhes técnicos do computador para facilitar o uso, a linguagem C te dá acesso direto à memória e ao hardware.
+
+Por isso, quem aprende C desenvolve uma base muito sólida e entende de verdade o que acontece "debaixo do capô" da máquina.

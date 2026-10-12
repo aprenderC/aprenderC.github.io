@@ -9,3 +9,13 @@ view-source:https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo
 
 Visual studio logo svg:
 https://upload.wikimedia.org/wikipedia/commons/archive/5/59/20210214224136%21Visual_Studio_Icon_2019.svg
+
+The C programming language book cover:
+https://commons.wikimedia.org/wiki/File:The_C_Programming_Language,_2nd_Edition.png
+
+Tux logo:
+https://commons.wikimedia.org/wiki/File:Tux.svg
+
+Microsoft Windows 10 logo:
+https://commons.wikimedia.org/wiki/File:Windows_logo_-_2012_(dark_blue).svg
+

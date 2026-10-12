@@ -6,13 +6,15 @@ typedef struct {
     const char *href;
 } MenuItem;
 
-static inline void render_sidebar(void) {
-    MenuItem menu_items[] = {
-        { "a", "a" },
-        { "b", "b" },
-    };
-    int menu_count = sizeof(menu_items) / sizeof(menu_items[0]);
+MenuItem menu_items[] = {
+    { "Inicio", "/index.html" },
+    { "1. Introdução", "/content/intro_cs" },
+    { "2. Sobre C", "/content/sobre_c" },
+};
 
+const int menu_count = sizeof(menu_items) / sizeof(menu_items[0]);
+
+static inline void render_sidebar(void) {
     with_tag(nav, .id = "sidebar", .css_class = "sidebar collapsed") {
         with_tag(div, .css_class = "sidebar-header") {
             with_tag(h2) { add_text("Menu"); }
