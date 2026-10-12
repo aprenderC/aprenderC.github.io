@@ -1,0 +1,3 @@
+A linguagem C é uma linguagem de programação de sistemas, compilada, imperativa e procedural.
+
+Criada por Dennis Ritchie enquanto trabalhava na empresa AT&T Bell Labs, ela foi criada para facilitar o desenvolvimento do sistema operacional UNIX, o qual era originalmente escrito em assembly, o que dificultava a portabilidade entre a grande variedade de arquiteturas de CPU da época.

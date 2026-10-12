@@ -3,9 +3,11 @@ CFLAGS = -Wall -Wextra
 TARGET = build/index
 SRC = src
 
+SRC_FILES = $(shell find $(SRC) -type f)
+
 all: $(TARGET)
 
-$(TARGET): $(SRC)/index.c
+$(TARGET): $(SRC_FILES)
 	@mkdir -p build
 	@$(CC) $(CFLAGS) $(SRC)/index.c -o $(TARGET)
 
@@ -13,7 +15,7 @@ run: all
 	@./$(TARGET)
 
 watch:
-	@find $(SRC) -type f | entr -c $(MAKE) --no-print-directory run
+	@find $(SRC) -type f | entr -d -c $(MAKE) --no-print-directory run
 
 clean:
 	@rm -rf build

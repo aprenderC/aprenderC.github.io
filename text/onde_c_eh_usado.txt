@@ -1,0 +1,9 @@
+C continua sendo uma das linguagens mais importantes e utilizadas no mundo moderno. Ela é usada onde precisamos de extrema velocidade e eficiência:
+
+Sistemas Operacionais: Os "corações" do Windows, Linux e macOS foram construídos em C.
+
+Dispositivos Inteligentes (IoT): Micro-ondas, carros modernos, robôs e dispositivos médicos usam C por conta do baixo uso de memória.
+
+Jogos e Motores Gráficos: Para garantir quadros por segundo sem travamentos.
+
+você pode não ver a linguagem C na superfície dos aplicativos do dia a dia, mas ela é a estrutura que faz quase toda a tecnologia moderna funcionar nos bastidores.

@@ -1,0 +1,6 @@
+A Ciência da Computação nada mais é do que o estudo de como resolver problemas usando o computador.
+
+Imagine o computador como um assistente extremamente rápido e obediente, mas que não tem iniciativa própria.
+Para que ele faça algo, precisamos dar instruções passo a passo (o que chamamos de algoritmos).
+
+A Ciência da Computação nos ensina a pensar de forma lógica para estruturar essas instruções e transformar ideias em programas funcionais.
