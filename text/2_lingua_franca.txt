@@ -1,0 +1,7 @@
+O termo "língua franca" refere-se a um idioma comum usado para facilitar a comunicação entre povos de línguas diferentes (como o inglês faz no mundo atual).
+
+Na computação, a linguagem C cumpre exatamente esse papel.
+Como C é extremamente próxima do hardware e muito universal, quase todas as outras linguagens de programação (como Python, JavaScript e Java) conseguem "conversar" com ela.
+
+Se duas tecnologias diferentes precisam se integrar, é muito comum usar o C como o ponto de encontro entre elas.
+

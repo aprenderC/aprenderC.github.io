@@ -31,22 +31,22 @@ void make_sobre_c_page(void) {
 
             with_tag(div, .css_class = "card") {
 
-                with_tag(h3) { add_text("1. Introdução a conceitos de ciência da computação."); }
+                with_tag(h3) { add_text("2. C, a \"língua franca\" da programação"); }
                 with_tag(div, .css_class = "logo-box") {
                     with_tag(div, .css_class = "logo-box-text") {
-                        current_text = read_file("text/intro_cs_1.txt");
+                        current_text = read_file("text/2_lingua_franca.txt");
                         for (size_t i = 0; i < current_text.count; ++i) {
                             with_tag(p) { add_text(current_text.lines[i]); }
                         }
                     }
                     with_tag(div, .css_class = "logos_group") {
-                        push_tag(img, .src = "../../images/generic_computer.png", .width = "150px");
+                        push_tag(img, .src = "../../images/data_types.png", .width = "150px");
                     }
                 }
 
                 br_repeat(5);
 
-                with_tag(h3) { add_text("1.1 O que é a linguagem C."); }
+                with_tag(h3) { add_text("2.1 C vs C++"); }
                 with_tag(div, .css_class = "logo-box") {
                     with_tag(div, .css_class = "logo-box-text") {
                         current_text = read_file("text/intro_cs_1.1.txt");
@@ -56,6 +56,8 @@ void make_sobre_c_page(void) {
                     }
                     with_tag(div, .css_class = "logos_group") {
                         push_tag(img, .src = "../../images/c_logo.png", .width = "80px");
+                        push_tag(img, .src = "../../images/divergencia.png", .width = "80px");
+                        push_tag(img, .src = "../../images/cpp_logo.png", .width = "80px");
                     }
                 }
 
