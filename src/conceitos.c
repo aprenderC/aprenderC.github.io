@@ -113,22 +113,47 @@ void make_conceitos_page(void) {
                 }
 
                 push_tag(img, .src = "../../images/exemplo_structs.png", .width = "500px");
+
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        with_tag(h4) { add_text("Ponteiros / Pointers"); }
+                        current_text = read_file("text/conceitos_ponteiros.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                    }
+                }
+
+                push_tag(img, .src = "../../images/exemplo_pointer.png", .width = "500px");
+
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        with_tag(h4) { add_text("Null terminated strings / "); }
+                        current_text = read_file("text/conceitos_null_terminated.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                    }
+                }
+
+                push_tag(img, .src = "../../images/exemplo_null_terminated.png", .width = "500px");
+                push_tag(img, .src = "../../images/exemplo_output_null_terminated.png", .width = "500px");
+                add_text("Saida do programa mostrando null-terminated strings (\\0)");
+
+
             }
 
-            br_repeat(5);
 
-            with_tag(h3) { add_text("1.3 Onde C é usado? É relevante atualmente?"); }
+            with_tag(h3) { add_text("3 Principais compiladores e ferramentas para C."); }
             with_tag(div, .css_class = "logo-box") {
                 with_tag(div, .css_class = "logo-box-text") {
-                    current_text = read_file("text/onde_c_eh_usado.txt");
+                    current_text = read_file("text/compiladores_intro.txt");
                     for (size_t i = 0; i < current_text.count; ++i) {
                         with_tag(p) { add_text(current_text.lines[i]); }
                     }
                 }
                 with_tag(div, .css_class = "logos_group") {
-                    push_tag(img, .src = "../../images/tux.webp", .width = "100px");
-                    push_tag(img, .src = "../../images/win10_logo.webp", .width = "100px");
-                    push_tag(img, .src = "../../images/macos_logo.webp", .width = "100px");
+                    push_tag(img, .src = "../../images/aprender_c_pensando.png", .width = "100px");
                 }
             }
         }

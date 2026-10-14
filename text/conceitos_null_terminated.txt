@@ -1,0 +1,3 @@
+C não possui um tipo nativo "String".
+As strings são vetores de caracteres (char) cujo fim é obrigatoriamente marcado pelo caractere nulo \0.
+Esquecer esse terminador gera falhas graves de leitura de memória.
