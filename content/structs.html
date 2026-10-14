@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>~/Dev/faculdade/site_extencionista/aprenderC/test.c.html</title>
+<meta name="Generator" content="Vim/9.2">
+<meta name="plugin-version" content="vim9.0_v2">
+<meta name="syntax" content="c">
+<meta name="settings" content="number_lines,use_css,no_foldcolumn,expand_tabs,line_ids,pre_wrap,prevent_copy=,use_input_for_pc=none">
+<meta name="colorscheme" content="wildcharm">
+<style>
+<!--
+pre { white-space: pre-wrap; font-family: monospace; color: #d0d0d0; background-color: #000000; }
+body { font-family: monospace; color: #d0d0d0; background-color: #000000; }
+* { font-size: 1em; }
+a { color: inherit; }
+.LineNr { color: #585858; }
+.Statement { color: #00afff; }
+.Comment { color: #767676; }
+.Type { color: #ffaf00; }
+.Constant { color: #ff5f87; }
+-->
+</style>
+
+<script>
+<!--
+
+/* function to open any folds containing a jumped-to line before jumping to it */
+function JumpToLine()
+{
+  var lineNum;
+  lineNum = window.location.hash;
+  lineNum = lineNum.substr(1); /* strip off '#' */
+
+  if (lineNum.indexOf('L') == -1) {
+    lineNum = 'L'+lineNum;
+  }
+  var lineElem = document.getElementById(lineNum);
+  /* Always jump to new location even if the line was hidden inside a fold, or
+   * we corrected the raw number to a line ID.
+   */
+  if (lineElem) {
+    lineElem.scrollIntoView(true);
+  }
+  return true;
+}
+if ('onhashchange' in window) {
+  window.onhashchange = JumpToLine;
+}
+
+-->
+</script>
+</head>
+<body onload='JumpToLine();'>
+<pre id='vimCodeElement'>
+<span id="L1" class="LineNr"> 1 </span>
+<span id="L2" class="LineNr"> 2 </span><span class="Type">int</span> valor_solto;
+<span id="L3" class="LineNr"> 3 </span><span class="Type">float</span> outro_valor_solto;
+<span id="L4" class="LineNr"> 4 </span>
+<span id="L5" class="LineNr"> 5 </span><span class="Type">typedef</span> <span class="Type">struct</span> {
+<span id="L6" class="LineNr"> 6 </span>    <span class="Type">int</span> valor;
+<span id="L7" class="LineNr"> 7 </span>    <span class="Type">float</span> outro_valor;
+<span id="L8" class="LineNr"> 8 </span>} Agrupado;
+<span id="L9" class="LineNr"> 9 </span>
+<span id="L10" class="LineNr">10 </span><span class="Comment">// usamos essas estruturas agrupadas da seguinte forma:</span>
+<span id="L11" class="LineNr">11 </span>
+<span id="L12" class="LineNr">12 </span><span class="Type">int</span> main(<span class="Type">void</span>) {
+<span id="L13" class="LineNr">13 </span>
+<span id="L14" class="LineNr">14 </span>    Agrupado meu_grupo = {.valor = <span class="Constant">100</span>, .outro_valor = <span class="Constant">300.5f</span>};
+<span id="L15" class="LineNr">15 </span>    meu_grupo.valor = <span class="Constant">200</span>;
+<span id="L16" class="LineNr">16 </span>    meu_grupo.outro_valor = <span class="Constant">400.9325f</span>;
+<span id="L17" class="LineNr">17 </span>
+<span id="L18" class="LineNr">18 </span>    <span class="Statement">return</span> <span class="Constant">0</span>;
+<span id="L19" class="LineNr">19 </span>}
+</pre>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->

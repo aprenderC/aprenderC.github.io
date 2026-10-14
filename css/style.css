@@ -198,3 +198,49 @@ body {
     justify-content: center;
     gap: 16px;
 }
+
+.codigo-janela {
+            width: 1000px;
+            background: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+        .janela-barra {
+            background: #2d2d2d;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .janela-ponto {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        .ponto-vermelho { background: #ff5f56; }
+        .ponto-amarelo { background: #ffbd2e; }
+        .ponto-verde { background: #27c93f; }
+        
+        /* O iframe que segura o HTML do Vim */
+        .codigo-iframe {
+            width: 100%;
+            height: 850px;
+            border: none;
+            display: block;
+        }
+
+
+.LineNr { color: #585858; }
+.Statement { color: #00afff; }
+.Comment { color: #767676; }
+.Type { color: #ffaf00; }
+.Constant { color: #ff5f87; }
+
+.code-box {
+    font-family: monospace;
+    background-color: #000000;
+    padding: 20px;
+    color: #FFFFFF;
+}

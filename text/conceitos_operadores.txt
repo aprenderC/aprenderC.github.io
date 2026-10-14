@@ -1,0 +1,25 @@
+Eles podem ser divididos em 3 categorias:
+   
+Matemáticos
+    + (Adição)
+    - (Subtração)
+    * (Multiplicação)
+    / (Divisão)
+    % (Modulo / Resto)
+ 
+ 
+
+Relacionais
+    == (Igual a)
+    != (Não Igual / Diferente)
+    > (Maior que)
+    < (Menor que)
+    >= (Maior ou igual a)
+    <= (Menor ou igual a)
+ 
+ 
+
+Lógicos
+    && (AND / e)
+    || (OR / ou)
+    ! (NOT / não, ou negação)

@@ -1,0 +1,2 @@
+Structs servem para agrupar varios tipos de dados em um unico bloco.
+Criando um "Super bloco" ou um "Novo tipo" qual você pode trabalhar em cima.
