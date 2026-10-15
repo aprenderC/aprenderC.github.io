@@ -139,21 +139,100 @@ void make_conceitos_page(void) {
                 push_tag(img, .src = "../../images/exemplo_null_terminated.png", .width = "500px");
                 push_tag(img, .src = "../../images/exemplo_output_null_terminated.png", .width = "500px");
                 add_text("Saida do programa mostrando null-terminated strings (\\0)");
-
-
             }
 
+            with_tag(div, .css_class = "card") {
 
-            with_tag(h3) { add_text("3 Principais compiladores e ferramentas para C."); }
-            with_tag(div, .css_class = "logo-box") {
-                with_tag(div, .css_class = "logo-box-text") {
-                    current_text = read_file("text/compiladores_intro.txt");
-                    for (size_t i = 0; i < current_text.count; ++i) {
-                        with_tag(p) { add_text(current_text.lines[i]); }
+                with_tag(h3) { add_text("3. Principais compiladores e ferramentas para C."); }
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        current_text = read_file("text/compiladores_intro.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                    }
+                    with_tag(div, .css_class = "logos_group") {
+                        push_tag(img, .src = "../../images/aprender_c_pensando.png", .width = "100px");
                     }
                 }
-                with_tag(div, .css_class = "logos_group") {
-                    push_tag(img, .src = "../../images/aprender_c_pensando.png", .width = "100px");
+
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        with_tag(h4) { add_text("Processo de compilação"); }
+                        current_text = read_file("text/processo_compilacao.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                    }
+                }
+
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        with_tag(h4) { add_text("O que é assembly?"); }
+                        current_text = read_file("text/o_que_e_assembly.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+
+                        push_tag(img, .src = "../../images/asm.gif", .width = "500px");
+
+                        current_text = read_file("text/o_que_e_assembly_parte2.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                    }
+                }
+
+                with_tag(div, .css_class = "logo-box") {
+                    with_tag(div, .css_class = "logo-box-text") {
+                        with_tag(h4) { add_text("Compiladores."); }
+                        current_text = read_file("text/compiladores_header.txt");
+                        for (size_t i = 0; i < current_text.count; ++i) {
+                            with_tag(p) { add_text(current_text.lines[i]); }
+                        }
+                        /*GCC*/
+                        with_tag(div, .css_class = "logo-box") {
+                            with_tag(div, .css_class = "logo-box-text") {
+                                with_tag(h4) { add_text("GCC - Gnu Compiler Collection"); }
+                                with_tag(h5) { add_text("Sistemas suportados: Windows, POSIX(Linux, MacOs, BSDs), Embarcados(Embedded)"); }
+                                current_text = read_file("text/compiladores_gcc.txt");
+                                for (size_t i = 0; i < current_text.count; ++i) {
+                                    with_tag(p) { add_text(current_text.lines[i]); }
+                                }
+                            }
+                            with_tag(div, .css_class = "logos_group") {
+                                push_tag(img, .src = "../../images/gcc_logo.png", .width = "150px");
+                            }
+                        }
+                        /* CLANG */
+                        with_tag(div, .css_class = "logo-box") {
+                            with_tag(div, .css_class = "logo-box-text") {
+                                with_tag(h4) { add_text("Clang - llvm/Clang"); }
+                                with_tag(h5) { add_text("Sistemas suportados: Windows, POSIX(Linux, MacOs, BSDs), Embarcados(Embedded)(limitado)"); }
+                                current_text = read_file("text/compiladores_clang.txt");
+                                for (size_t i = 0; i < current_text.count; ++i) {
+                                    with_tag(p) { add_text(current_text.lines[i]); }
+                                }
+                            }
+                            with_tag(div, .css_class = "logos_group") {
+                                push_tag(img, .src = "../../images/llvm_logo.png", .width = "150px");
+                            }
+                        }
+                        /* MSVC */
+                        with_tag(div, .css_class = "logo-box") {
+                            with_tag(div, .css_class = "logo-box-text") {
+                                with_tag(h4) { add_text("msvc - Microsoft visual C++ - cl.exe"); }
+                                with_tag(h5) { add_text("Sistemas suportados: Windows"); }
+                                current_text = read_file("text/compiladores_msvc.txt");
+                                for (size_t i = 0; i < current_text.count; ++i) {
+                                    with_tag(p) { add_text(current_text.lines[i]); }
+                                }
+                            }
+                            with_tag(div, .css_class = "logos_group") {
+                                push_tag(img, .src = "../../images/msvc_logo.png", .width = "150px");
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -2,6 +2,7 @@
 #include "menu.h"
 #include "svg_helper.h"
 
+#include "sobre.c"
 #include "intro_cs.c"
 #include "contexto_2.c"
 #include "conceitos.c"
@@ -120,8 +121,8 @@ int main(void) {
     }
 
     c2html_end_file();
-
-
+ 
+    make_about_page();
     
     make_intro_cs_page();
     make_sobre_c_page();

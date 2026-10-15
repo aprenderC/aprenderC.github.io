@@ -1,0 +1,6 @@
+Clang (significando C-lang, ou seja, abreviação em inglês para linguagem C), é um compilador que funciona de uma forma ligeiramente diferente dos outros.
+O Projeto LLVM (low level virtual machine), é um projeto de uma simples maquina virtual, qual executa sua propia linguagem de máquina, a "LLVM IR", qual pode ser facilmente transformada em linguagem de máquina real.
+O Projeto Clang, qual foi montado como "face" do projeto LLVM, qual seria um compilador de C que gera o assembly especifico dessa máquina virtual.
+Grande ênfase em modulariedade e tenta suportar tudo que o GCC suporta tambem, com a intenção de você poder trocar entre os dois sem dores de cabeça.
+Apesar de ter um foco maior em C++, continua sendo ótimo para C.
+Compilador principal das plataformas da Apple.

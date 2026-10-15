@@ -1,0 +1,2 @@
+O que é em seguida passado para o "Assembler", qual pega o valor correspondente a cada instrução em binário, e junta em um arquivo, o qual depois passa pelo LINKER, qual junta com biblíotecas, tanto do sistema quando externas e etc.
+Não iremos nos aprofundar nessa etapa por enquanto.

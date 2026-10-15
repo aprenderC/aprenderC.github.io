@@ -1,0 +1,3 @@
+O processo de compilação é dividido em várias partes, porem iremos focar nas partes mais simples.
+O processo começa lendo seu programa linha-por-linha, interpretando seu o código e gerando o que chamamos de "Abstract Syntax tree".
+Apos isso, percorre esta AST e gera representação intermediaria, geralmente Assembly.
