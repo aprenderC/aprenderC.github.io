@@ -109,6 +109,7 @@ int main(void) {
             }
 
             with_tag(div, .css_class = "title-align") {
+                push_tag(a, .href = "/content/sobre/");
                 with_tag(div, .css_class = "logo-box") {
                     with_tag(div, .css_class = "logo-box-text") {
                         with_tag(p) { add_text_unescaped("Sobre este projeto &#9660;"); }
@@ -117,6 +118,7 @@ int main(void) {
                         push_tag(img, .src = "images/aprender_c.png", .width = "150px");
                     }
                 }
+                pop_tag(a);
             }
         }
     }
