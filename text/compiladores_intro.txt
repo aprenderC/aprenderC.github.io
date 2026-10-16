@@ -1,0 +1,6 @@
+Como já falamos anteriormente, C é uma linguagem compilada.
+O que faz com que necessitemos de um compilador para utilizarmos a linguagem.
+Ja vimos anteriormente, compiladores sendo utilizados, agora iremos apreender um pouco mais sobre eles.
+Compiladores são os "tradutores", de nosso texto legivel (linguagem de programação) para a linguagem de maquina (binário).
+
+Como a linguagem C não é desenvolvida inteiramente sobre um grupo, mas invez disso, padronizada para que varios grupos possam comunicar-se entre si, existem varias implementações de compiladores e ferramentas para trabalhar com C. Vamos explorar alguns compiladores e ferramentas.

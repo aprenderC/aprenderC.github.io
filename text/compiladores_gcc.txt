@@ -1,0 +1,4 @@
+Gnu Compiler Collection (GCC) é na realidade, o nome de um conjunto de compiladores para diferentes linguagens, qual obviamente a primeira é C.
+É um programa de código aberto, criado pela GNU Software foundation, para uso em seu sistema 
+É um dos compiladores mais utilizados hoje em dia e sempre um dos primeiros a implementar as novidades das verções mais novas do C. Suporta praticamente toda arquitetura de CPU que existe em larga escala hoje em dia.
+Seu uso mais popular é ser o compilador de escolha para o projeto do Kernel do Linux.

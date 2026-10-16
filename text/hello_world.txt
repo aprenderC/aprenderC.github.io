@@ -1,0 +1,3 @@
+"Hello, World!\n" é o texto usado para teste de output em linguagens de programação.
+É o teste mais comum para saber se o ambiente do compilador esta configurado correto.
+Testando saida para o terminal, linkagem com as bibliotecas do sistema e etc.

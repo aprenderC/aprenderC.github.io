@@ -1,0 +1,3 @@
+Muitos conceitos específicos de varias linguagems são compartilhados entre si.
+Muitos deles vindo diretamente da conceitos criados pela linguagem C.
+Entendendo alguns desses conceitos, podemos entender melhor estruturas em qualquer linguagem.

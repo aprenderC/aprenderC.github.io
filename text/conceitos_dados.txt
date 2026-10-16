@@ -1,0 +1,1 @@
+Tipos de dados controlam e que tipo de informações são armazenadas em uma variavel, seu tamanho e quais operações podem ser realizadas sobre ela.

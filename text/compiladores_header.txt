@@ -1,0 +1,2 @@
+Como dito anteriormente, C tem varios compiladores diferentes, pois não é controlado somente por um grupo ou entidade.
+Os maiores e principais compiladores são os seguintes:

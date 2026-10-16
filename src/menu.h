@@ -10,6 +10,8 @@ MenuItem menu_items[] = {
     { "Inicio", "/index.html" },
     { "1. Introdução", "/content/intro_cs" },
     { "2. Sobre C", "/content/sobre_c" },
+    { "3. Conceitos de programação", "/content/conceitos" },
+    { "4. Programa minimo em C", "/content/programa_minimo" },
 };
 
 const int menu_count = sizeof(menu_items) / sizeof(menu_items[0]);

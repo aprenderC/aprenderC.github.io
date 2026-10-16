@@ -1,0 +1,4 @@
+Microsoft Visual C++, ou mais facilmente chamado MSVC, ou cl.exe, é um compilador criado pela Microsoft para uso no Windows.
+Seu foco, atualmente, como o nome diz, é em C++, porem ofereçe extendido suporte ao C (mesmo features do C incompátiveis com C++) devido a boa parte da infraestrutura do Windows ser escrito em C.
+Seu peso como um dos maiores distribuidores de compilador está mais associado ao comitê de C++, sendo normalmente um dos primeiros compiladores a trazer as novidades do C++, porem sempre atrasando com o C moderno.
+O que não é tao ruim, dado que o o WINAPI é todo em verções antigas do C. (com extenções da microsoft)

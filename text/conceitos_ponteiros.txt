@@ -1,0 +1,2 @@
+São variáveis que armazenam o endereço de memória de outra variável.
+Permitem a manipulação direta do hardware, passagem de parâmetros por referência e são a base para a criação de estruturas de dados dinâmicas.

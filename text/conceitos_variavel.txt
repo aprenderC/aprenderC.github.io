@@ -1,0 +1,1 @@
+Variáveis são lugares na memória do computador que guardam valores. Pense nelas como caixinhas que guardam tipos de coisas diferentes.

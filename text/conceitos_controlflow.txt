@@ -1,0 +1,2 @@
+Mudam a execução do programa dependendo das condições atuais.
+Exemplo: Se situação A, faça X, se situação B, faça Y.

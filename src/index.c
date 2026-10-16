@@ -2,8 +2,11 @@
 #include "menu.h"
 #include "svg_helper.h"
 
+#include "sobre.c"
 #include "intro_cs.c"
 #include "contexto_2.c"
+#include "conceitos.c"
+#include "programa_minimo.c"
 
 int main(void) {
 
@@ -106,6 +109,7 @@ int main(void) {
             }
 
             with_tag(div, .css_class = "title-align") {
+                push_tag(a, .href = "/content/sobre/");
                 with_tag(div, .css_class = "logo-box") {
                     with_tag(div, .css_class = "logo-box-text") {
                         with_tag(p) { add_text_unescaped("Sobre este projeto &#9660;"); }
@@ -114,16 +118,19 @@ int main(void) {
                         push_tag(img, .src = "images/aprender_c.png", .width = "150px");
                     }
                 }
+                pop_tag(a);
             }
         }
     }
 
     c2html_end_file();
-
-
+ 
+    make_about_page();
     
     make_intro_cs_page();
     make_sobre_c_page();
+    make_conceitos_page();
+    make_programa_page();
 
 
     return 0;

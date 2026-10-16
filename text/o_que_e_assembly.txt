@@ -1,0 +1,3 @@
+Assembly é uma "tradução" direta da linguagem de maquina. cada instrução corresponde / traduz diretamente a uma instrução da máquina.
+Observe a animação abaixo, seguindo o processo de reverter o código binário para Assembly.
+
