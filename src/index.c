@@ -6,6 +6,7 @@
 #include "intro_cs.c"
 #include "contexto_2.c"
 #include "conceitos.c"
+#include "programa_minimo.c"
 
 int main(void) {
 
@@ -127,6 +128,7 @@ int main(void) {
     make_intro_cs_page();
     make_sobre_c_page();
     make_conceitos_page();
+    make_programa_page();
 
 
     return 0;

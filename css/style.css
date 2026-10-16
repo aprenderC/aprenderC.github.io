@@ -241,17 +241,21 @@ a:hover {
         }
 
 
-.LineNr { color: #585858; }
-.Statement { color: #00afff; }
-.Comment { color: #767676; }
-.Type { color: #ffaf00; }
-.Constant { color: #ff5f87; }
+.LineNr { color: #585858; !important}
+.Statement { color: #00afff; !important}
+.Comment { color: #767676; !important}
+.Type { color: #ffaf00; !important}
+.Constant { color: #ff5f87; !important}
+.PreProc { color: #00d7d7;  !important}
+.String { color: #00d75f; !important}
+.Special { color: #875fff; !important}
 
 .code-box {
     font-family: monospace;
     background-color: #000000;
     padding: 20px;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .btn-dark {
